@@ -11,13 +11,14 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;;
 }
 
-.header {
+header.main-header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     font-size: small;
+    margin-bottom: 30px;
 }
 
-.navbar {
+nav.navbar {
     overflow: hidden;
     width: 960px;
     margin: auto;
@@ -50,15 +51,35 @@ a {
 
 }
 
-.main {
+main.main {
     width: 960px;
     background-color: #ffffff;
     margin: auto;
+    border: 1px solid #dddddd;
+
 }
 
-img {
+header.content-header {
+    padding: 10px 20px 0px 20px;
+}
+
+section.content {
+    padding: 0px 20px 10px 20px;
+}
+
+img.me {
     width: 200px;
     height: 200px;
     float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+ border-color: #cccccc;
+}
+
+p.bio {
+    line-height: 1.5;
 }
 
