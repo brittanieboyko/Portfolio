@@ -7,8 +7,47 @@ body {
 }
 
 h1 {
-    /* color: #4aaaa5; */
+    color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    font-size: small;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 960px;
+    margin: auto;
+}
+
+h1.name {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+}
+
+ul {
+    float: right;
+}
+
+ul > li {
+    padding: 10px;
+    display: inline-block;
+}
+
+ul > li:not(:last-child) {
+    border-right: 1px solid #cccccc;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+
 }
 
 .main {
@@ -23,31 +62,3 @@ img {
     float: left;
 }
 
-nav.navbar {
-    background-color: #ffffff;
-    overflow: hidden;
-    width: 960px;
-    margin: auto;
-  }
-
-  header.name {
-    float: left;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 0px 20px 10px 20px;
-  }
-  
-  ul {
-    float: right;
-    color: white;
-    list-style: none;
-  }
-  
-  ul > li {
-    padding: 0.4rem;
-    display: inline-block;
-  }
-  
-  ul > li:not(:last-child) {
-    border-right: 1px solid #777777;
-  }
