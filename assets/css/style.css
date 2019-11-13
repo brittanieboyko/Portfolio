@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-image: url("../images/concrete-texture.png");
@@ -51,12 +52,16 @@ a {
 
 }
 
+div.wrapper {
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
 main.main {
     width: 960px;
     background-color: #ffffff;
     margin: auto;
     border: 1px solid #dddddd;
-
 }
 
 header.content-header {
@@ -71,15 +76,28 @@ img.me {
     width: 200px;
     height: 200px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 0px 10px 10px 0px;
 }
 
 hr {
- border-color: #cccccc;
+ border-color: #dddddd;
 }
 
 p.bio {
     line-height: 1.5;
+}
+
+footer {
+    height: 50px;
+    margin-top: -30px;
+    background-color: #666666 ;
+    border-top: 8px solid #4aaaa5;
+}
+
+.copyright {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
 }
 
