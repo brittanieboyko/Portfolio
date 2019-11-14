@@ -101,3 +101,31 @@ footer {
     margin-top: 30px;
 }
 
+form {
+    margin: 20px;
+}
+
+form > input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #cccccc;
+  }
+  input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+  input.message {
+      height: 200px;
+  }
