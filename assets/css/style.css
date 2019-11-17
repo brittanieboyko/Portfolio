@@ -1,3 +1,5 @@
+
+/* Generic Classes */
 html,
 body {
     height: 100%;
@@ -8,31 +10,33 @@ body {
     color: #777777;
 }
 
-h1 {
+h2, h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;;
 }
+
+/* Nav Bar */
 
 nav.navbar {
     border-bottom: 1px solid #cccccc;
     margin-bottom: 30px;
     background-color: #ffffff;
     font-size: 12px;
-
 }
 
 header.main-header {
     overflow: hidden;
     width: 960px;
     margin: auto;
+    background-color: #ffffff;
 }
 
 h1.name {
     float: left;
-    background-color: #4aaaa5;
     color: #ffffff;
     padding: 20px;
     margin: 0px;
+    background-color: #4aaaa5;
 }
 
 ul {
@@ -51,8 +55,9 @@ ul > li:not(:last-child) {
 a {
     text-decoration: none;
     color: #777777;
-
 }
+
+/* main content */
 
 div.wrapper {
     min-height: 100%;
@@ -62,9 +67,8 @@ div.wrapper {
 main.main {
     width: 960px;
     background-color: #ffffff;
-    margin: auto;
+    margin: 0 auto;
     border: 1px solid #dddddd;
-    
 }
 
 header.content-header {
@@ -75,6 +79,12 @@ section.content {
     padding: 0px 20px 10px 20px;
 }
 
+hr {
+    border-color: #dddddd;
+}
+
+/* About Me */
+
 img.me {
     width: 200px;
     height: 267px;
@@ -82,13 +92,11 @@ img.me {
     margin: 0px 10px 10px 0px;
 }
 
-hr {
- border-color: #dddddd;
+p.bio {
+    line-height: 1.6;
 }
 
-p.bio {
-    line-height: 1.5;
-}
+/* Contact */
 
 form {
     margin: 20px;
@@ -104,9 +112,9 @@ form > input {
     box-sizing: border-box;
     color: #777777;
     outline: none;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     width: 100px;
     background-color: #4aaaa5;
     color: white;
@@ -115,9 +123,9 @@ form > input {
     border: none;
     border-radius: 0px;
     cursor: pointer;
-  }
+}
 
-  textarea {
+textarea {
     width: 100%;
     height: 200px;
     padding: 10px 10px;
@@ -128,13 +136,16 @@ form > input {
     box-sizing: border-box;
     color: #777777;
     outline: none;
-  }
+}
+
+/* Portfolio */
 
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
 }
+
 .row:after {
     content: "";
     display: table;
@@ -145,7 +156,6 @@ form > input {
     width: 100%;
     padding: 16px;
     position: relative;
-
 }
 
 img.thumbnail {
@@ -153,31 +163,31 @@ img.thumbnail {
     width: 275px;
 }
 
-.btn {
+button.btn {
+    width: 275px;
+    height: 45px;
+    font-size: 16px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: absolute;
     left: 16px;
     bottom: 30px;
-    width: 275px;
-    height: 45px;
+    color: white;
     background-color: #4aaaa5;
     border: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;;
-    outline: none;
 }
+
+/* Footer */
 
 footer {
     height: 50px;
     background-color: #666666 ;
     border-top: 8px solid #4aaaa5;
-    text-align: center;
     margin-bottom: -50px;
+    text-align: center;
 }
 
 .copyright {
     color: #cccccc;
     display: block;
-    text-align: center;
     margin-top: 30px;
 }
